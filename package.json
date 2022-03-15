@@ -9,7 +9,8 @@
   ],
   "main": "bundled-script.js",
   "digshare": {
-    "runtime": "nodejs14"
+    "runtime": "nodejs14",
+    "cron": "0 0 8 * * *"
   },
   "scripts": {
     "dev-run": "ts-node ./src/dev-run.ts",
