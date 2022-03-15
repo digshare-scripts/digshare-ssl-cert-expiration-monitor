@@ -5,7 +5,7 @@
     "module": "esnext",
     "moduleResolution": "node",
     "lib": ["esnext"],
-    "types": [],
+    "types": ["node"],
     "strict": true,
     "esModuleInterop": true,
     "newLine": "lf",
