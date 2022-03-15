@@ -1,3 +1,9 @@
+# SSL 证书过期检查（盯梢脚本）
+
+可以将 [src/script.ts](./src/script.ts) 中的 `COMMON_NAMES` 修改为自己需要的域名后，添加 `.npmrc` 配置发布到自己的频道。
+
+具体操作见下方脚本模板说明。
+
 # 盯梢脚本模板
 
 盯梢频道脚本除了可以在 [script.dingshao.cn](https://script.dingshao.cn) 直接编辑部署外，还可以使用 dss 命令构建后通过 npm 命令发布到盯梢脚本专有的 registry 地址（`https://script.dingshao.cn/registry/`）。
