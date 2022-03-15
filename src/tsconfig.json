@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    // dss build 需要 ES Module
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+    "types": [],
+    "strict": true,
+    "esModuleInterop": true,
+    "newLine": "lf",
+    "outDir": "../bld"
+  },
+  "ts-node": {
+    "compilerOptions": {
+      // ts-node 执行需要 CommonJS
+      "module": "commonjs"
+    }
+  }
+}
