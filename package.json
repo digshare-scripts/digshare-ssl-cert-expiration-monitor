@@ -8,6 +8,9 @@
     "import": "./bld/library/index.js",
     "default": "./bld/library/index.js"
   },
+  "dss": {
+    "schedule": "cron(0 9 * * *)"
+  },
   "scripts": {
     "3": "pnpm install && pnpm dedupe && pnpm install",
     "build": "rimraf ./bld && tsc --build",
