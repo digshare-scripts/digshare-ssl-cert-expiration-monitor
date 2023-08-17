@@ -1,0 +1,17 @@
+{
+  "$schema": "boilerplate.schema.json",
+  "boilerplate": "@mufan/code-boilerplates/typescript",
+  "options": {
+    "name": "digshare-ssl-cert-expiration-monitor",
+    "license": "MIT",
+    "author": "vilicvane",
+    "packageManager": "pnpm",
+    "projects": [
+      {
+        "name": "library",
+        "dir": false,
+        "exports": false
+      }
+    ]
+  }
+}
