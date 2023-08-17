@@ -10,7 +10,7 @@
       {
         "name": "library",
         "dir": false,
-        "exports": false
+        "module": "esm"
       }
     ]
   }

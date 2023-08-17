@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "vilicvane",
+  "exports": {
+    "types": "./bld/library/index.d.ts",
+    "import": "./bld/library/index.js",
+    "default": "./bld/library/index.js"
+  },
   "scripts": {
     "3": "pnpm install && pnpm dedupe && pnpm install",
     "build": "rimraf ./bld && tsc --build",
