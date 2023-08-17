@@ -16,11 +16,13 @@
     "test": "pnpm lint-prettier && pnpm build && pnpm lint"
   },
   "dependencies": {
+    "@digshare/script": "^0.4.2",
     "tslib": "^2.6.1"
   },
   "devDependencies": {
     "@mufan/code": "^0.2.16",
     "@mufan/eslint-plugin": "^0.1.81",
+    "@types/node": "^20.5.0",
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "rimraf": "^5.0.1",

@@ -5,3 +5,7 @@ node_modules/
 # TypeScript Build Artifacts
 bld/
 *.tsbuildinfo
+# Build
+.local/
+# Config
+.dssrc
