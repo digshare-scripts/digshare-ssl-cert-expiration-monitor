@@ -6,6 +6,7 @@ node_modules/
 bld/
 *.tsbuildinfo
 # Build
+out/
 .local/
 # Config
 .dssrc
