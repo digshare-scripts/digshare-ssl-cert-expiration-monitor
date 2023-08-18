@@ -1,4 +1,4 @@
 # Package Manager
 pnpm-lock.yaml
 # TypeScript Build Artifacts
-bld/
+.bld/

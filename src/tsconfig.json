@@ -5,6 +5,6 @@
     "module": "esnext",
     "moduleResolution": "nodenext",
     "rootDir": ".",
-    "outDir": "../bld/library"
+    "outDir": "../.bld/library"
   }
 }

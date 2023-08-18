@@ -9,7 +9,7 @@
   },
   "scripts": {
     "3": "pnpm install && pnpm dedupe && pnpm install",
-    "build": "rimraf ./bld && tsc --build",
+    "build": "rimraf ./.bld && tsc --build",
     "lint": "eslint --no-error-on-unmatched-pattern . && run-in-every eslint-project --parallel --echo -- eslint --no-error-on-unmatched-pattern .",
     "lint-prettier": "prettier --check .",
     "test": "pnpm lint-prettier && pnpm build && pnpm lint"

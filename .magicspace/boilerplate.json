@@ -11,6 +11,7 @@
         "name": "library",
         "dir": false,
         "module": "esm",
+        "noEmit": true,
         "exports": false
       }
     ]

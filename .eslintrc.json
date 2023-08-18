@@ -1,6 +1,6 @@
 {
   "root": true,
-  "ignorePatterns": ["node_modules/", "/src/", "/bld/"],
+  "ignorePatterns": ["node_modules/", "/src/"],
   "extends": ["plugin:@mufan/js"],
   "overrides": [
     {
