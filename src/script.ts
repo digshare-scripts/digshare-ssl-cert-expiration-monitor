@@ -6,11 +6,7 @@ const DAY_IN_MS = 24 * 3600 * 1000;
 
 const EXPIRATION_WARN_THRESHOLD = 7 * DAY_IN_MS;
 
-const COMMON_NAMES = [
-  'dingshao.cn',
-  // www 和其他二级域名都是同一个证书，同一个 nginx 前端，所以只检查这个就行了。
-  'www.dingshao.cn',
-];
+const COMMON_NAMES = ['dingshao.cn'];
 
 export default script<{}>(async () => {
   interface Problem {

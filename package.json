@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "vilicvane",
-  "exports": "./src/index.ts",
+  "exports": "./src/script.ts",
   "dss": {
     "schedule": "cron(0 9 * * *)"
   },
