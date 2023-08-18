@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "vilicvane",
+  "exports": "./src/index.ts",
   "dss": {
     "schedule": "cron(0 9 * * *)"
   },
@@ -14,7 +15,7 @@
     "test": "pnpm lint-prettier && pnpm build && pnpm lint"
   },
   "dependencies": {
-    "@digshare/script": "^0.4.2",
+    "@digshare/script": "^0.4.3",
     "tslib": "^2.6.1"
   },
   "devDependencies": {
